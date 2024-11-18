@@ -45,7 +45,7 @@ public class Champions {
 		//equipos.add(scanner.nextLine());
 		
 		// Excepcion para que el nombre no tenga numeros
-		if (!equipo.matches("[a-zA-Z]+")) {
+		if (!equipo.matches("[a-zA-Z ]+")) {
 			throw new NombreEquipoInvalidoException("El nombre del equipo solo debe contener letras");
 		}
 		
